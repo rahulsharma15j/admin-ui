@@ -1,0 +1,23 @@
+.core {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 70%;
+  margin: auto;
+  padding: 1rem 2rem;
+  border-radius: 8px;
+  background-color: var(--secondary);
+}
+
+.core h1 {
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.core .row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 1rem;
+}
